@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		
+        <ContentTargetFolders>.</ContentTargetFolders>
+        <Product>Qualia.Umb.VersionedAssets</Product>
+        <PackageId>Qualia.Umb.VersionedAssets</PackageId>
+        <Title>Qualia.Umb.VersionedAssets</Title>
+		<Description>
+			An umbraco cms package for handdling versioning of html references to assets.
+		</Description>
+		<PackageProjectUrl>https://github.com/PagonisTasos/Qualia.Umb.VersionedAssets</PackageProjectUrl>
+		<PackageTags>umbraco plugin package; html assets; versioning;</PackageTags>
+        <RootNamespace>Qualia.Umb.VersionedAssets</RootNamespace>
+		<Version>1.0.0</Version>
+		<Authors>Pagonis Tasos</Authors>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="9.1.2" />
+    </ItemGroup>
+</Project>
